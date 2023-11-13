@@ -1,0 +1,50 @@
+/* Write your CSS here */
+.app-container {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.coin-container {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header {
+  color: #a35200;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+.app-text {
+  color: #334155;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Roboto';
+}
+.image {
+  height: 100px;
+  width: 100px;
+  margin-bottom: 20px;
+}
+.button {
+  color: #a35200;
+  background-color: #e2a139;
+  border: none;
+  border-radius: 10px;
+  padding-left: 15px;
+  padding-top: 8px;
+  padding-right: 15px;
+  padding-bottom: 8px;
+}
+.res-container {
+  display: flex;
+}
+.count {
+  margin: 15px;
+}
